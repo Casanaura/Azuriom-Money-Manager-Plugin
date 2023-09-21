@@ -1,0 +1,28 @@
+name: ZibuuCredits
+version: '${project.version}'
+main: net.zibuu.credits.ZibuuCredits
+api-version: '1.20'
+prefix: Zibuu
+authors: [Kissadere, ChatGPT]
+description: Sync your azuriom money with your minecraft server
+website: www.zibuu.net
+commands:
+  credits:
+    description: Shows the players account current credits
+    usage: /credits
+  creditsadd:
+    description: Adds credits to a players account
+    usage: /creditsadd (playername) (amount)
+    permission: zibuu.credits.add
+  creditsrem:
+    description: Removes credits from a players account
+    usage: /creditsrem (playername) (amount)
+    permission: zibuu.credits.remove
+  creditsset:
+    description: Set the players account credits
+    usage: /creditsset (playername) (amount)
+    permission: zibuu.credits.set
+  creditsview:
+    description: View the players account credits
+    usage: /creditsview (playername)
+    permission: zibuu.credits.view

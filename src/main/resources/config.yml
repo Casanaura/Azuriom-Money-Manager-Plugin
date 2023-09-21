@@ -1,0 +1,7 @@
+# Datanase configuration
+database:
+  host: 'host.domain.tld'
+  port: 3306
+  name: 'db_name'
+  username: 'db_user'
+  password: 'db_password'
